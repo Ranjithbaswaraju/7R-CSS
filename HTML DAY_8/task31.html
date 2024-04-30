@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .red{
+            background-color: red;
+        }
+        .green{
+            background-color: green;
+        }
+        .field{
+            background-color: aqua;
+        }
+        *{
+            background-color: lightblue;
+        }
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>HTML form</h1>
+    <form>
+        
+    <table> 
+        <tr>
+            <td>
+                <label for="fname">First Name:</label>
+            </td>
+            <td style="width: 50px;"></td>
+            <td>
+                <input type="text" name="" id="" class="field">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="lname">Last Nmae:</label>
+            </td>
+            <td style="width: 50px;"></td>
+            <td>
+                <input type="text"  id="lname">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="mail">Email:</label>
+            </td>
+            <td style="width: 50px;"></td>
+            <td>
+                <input type="email" id="mail" class="field">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="radio" id="male" name="gender">
+                <label for="male">Male</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="radio" id="female" name="gender">
+                <label for="female">Female</label>
+            </td>
+        </tr>
+    </table>
+    <input type="submit" class="red">
+    <input type="reset" class="green">
+    </form>
+</body>
+</html>
